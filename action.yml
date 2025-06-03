@@ -1,0 +1,15 @@
+name: 'Bllok Static Site Generator'
+description: 'Generate a static website using Bllok'
+inputs:
+  template:
+    description: 'Path to the template directory'
+    required: true
+  input:
+    description: 'Path to the content input directory'
+    required: true
+  output:
+    description: 'Path to the output directory'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
