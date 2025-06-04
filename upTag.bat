@@ -1,4 +1,4 @@
-cp -f ../bllok/build/libs/bllok-1.0-SNAPSHOT.jar bllok.jar
+copy /Y ../bllok/build/libs/bllok-1.0-SNAPSHOT.jar bllok.jar
 git add .
 git commit -m "update jar"
 git tag -d v1
