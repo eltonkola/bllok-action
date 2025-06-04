@@ -10,6 +10,10 @@ inputs:
   output:
     description: 'Path to the output directory'
     required: true
+  rootPath:
+    description: 'Path to the root folder published'
+    required: false
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
