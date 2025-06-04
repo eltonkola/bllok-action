@@ -10,7 +10,7 @@ inputs:
   output:
     description: 'Path to the output directory'
     required: true
-  rootPath:
+  rootpath:
     description: 'Path to the root folder published'
     required: false
 
