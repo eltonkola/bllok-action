@@ -1,4 +1,4 @@
-copy /Y "../bllok/build/libs/bllok-1.0-SNAPSHOT.jar" bllok.jar
+Copy-Item -Path "..\bllok\build\libs\bllok-1.0-SNAPSHOT.jar" -Destination "bllok.jar" -Force
 git add .
 git commit -m "update jar"
 git tag -d v1
