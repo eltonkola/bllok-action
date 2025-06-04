@@ -42,6 +42,7 @@ jobs:
           template: tema
           input: blog
           output: public
+          rootpath: bllok-action
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
@@ -59,7 +60,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+```
 
+rootpath is optional, and for github pages it is the name of the repo itself (if you have a custom domain dont pass it)
 
 ## for me
 
