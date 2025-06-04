@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:20-jdk-alpine
 
 COPY bllok.jar /app/bllok.jar
 COPY entrypoint.sh /entrypoint.sh
